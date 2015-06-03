@@ -7,7 +7,10 @@
    <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
-    <remote  name="jsn"
+   <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
+
+   <remote  name="jsn"
            fetch="https://github.com/jsnweitzel" />
 
   <remote  name="aosp"
