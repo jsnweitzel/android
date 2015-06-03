@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <remote  name="gh"
+           fetch="https://github.com/" />
+
+   <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+    <remote  name="jsn"
+           fetch="https://github.com/jsnweitzel" />
+
   <remote  name="aosp"
            fetch=".." />
   <default revision="refs/tags/android-m-preview"
            remote="aosp"
            sync-j="4" />
 
+  <project path="build" name="android_build" remote="jsn" revision="l" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -22,10 +32,7 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" /> 
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -449,15 +456,12 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <remote  name="gh"
-           fetch="https://github.com/" />
-   <remote  name="bb"
-           fetch="https://bitbucket.org/" />
-
+ 
+  <project path="device/moto/shamu" name="device/moto/shamu" remote="jsn" revision="l" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-12.1" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6-Preview" remote="gh" revision="despair" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="gh" revision="lp5.1" />
-  <project path="build" name="jsnweitzel/android_build" remote="gh" revision="l" >
+  
 
 </manifest>
