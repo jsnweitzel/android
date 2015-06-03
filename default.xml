@@ -7,7 +7,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -449,5 +448,16 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+  <remote  name="gh"
+           fetch="https://github.com/" />
+   <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-12.1" />
+  <project path="kernel/moto/shamu" name="DespairFactor/N6-Preview" remote="gh" revision="despair" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
+  <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="gh" revision="lp5.1" />
+  <project path="build" name="jsnweitzel/android_build" remote="gh" revision="l" >
 
 </manifest>
