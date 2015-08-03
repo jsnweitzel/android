@@ -465,7 +465,7 @@
   <project path="device/moto/shamu" name="android_device_motorola_shamu" remote="jsn" revision="l" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-12.1" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="M" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="UBERTC/GCC_UBER" remote="gh" revision="uber-5.2" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="UBERTC/GCC-UBER" remote="gh" revision="uber-5.2" />
   <project path="external/busybox" name="nawawi/busybox" remote="gh" revision="master" />
   
 
