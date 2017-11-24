@@ -379,7 +379,6 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" remote="aosp" />
@@ -387,7 +386,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp" />
