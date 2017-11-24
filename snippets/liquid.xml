@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="build/soong" name="android_build_soong" remote="jsn" revision="8.0" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bionic" name="android_bionic" remote="jsn" revision="8.0" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="jsn" revision="8.0" />
+  <project path="frameworks/base" name="andoid_frameworks_base" remote="jsn" revision="8.0" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="jsn" revision="8.0" />
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="ln" revision="lineage-15.0" />
+  <project path="vendor/proprietary/huawei" name="proprietary_vendor_huawei" remote="tm" revision="lineage-15.0" />
+
+  
+  <project path="bootable/recovery" name="bootable_recovery" remote="sr" revision="or8.0" />
+  <project path="build/kati" name="android_build_kati" remote="sr" revision="or8.0" />
+  <project path="external/selinux" name="android_external_selinux" remote="sr" revision="or8.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="sr" revision="or8.0" />
+  <project path="frameworks/av" name="frameworks_av" remote="sr" revision="or8.0" />
+  <project path="frameworks/native" name="frameworks_native" remote="sr" revision="or8.0" />
+  <project path="frameworks/support" name="frameworks_support" remote="sr" revision="or8.0" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="sr" revision="or8.0" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="sr" revision="or8.0" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="sr" revision="or8.0" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="sr" revision="or8.0" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="sr" revision="or8.0" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="sr" revision="or8.0" />
+  <project path="hardware/ril" name="hardware_ril" remote="sr" revision="or8.0" />
+  <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="sr" revision="or8.0" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="sr" revision="or8.0" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sr" revision="or8.0" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="sr" revision="or8.0" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="or8.0" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="sr" revision="or8.0" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="sr" revision="or8.0" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sr" revision="or8.0" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="sr" revision="or8.0" />
+  <project path="packages/services/Mms" name="packages_services_Mms" remote="sr" revision="or8.0" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sr" revision="or8.0" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sr" revision="or8.0" />
+  <project path="system/bt" name="android_system_bt" remote="sr" revision="or8.0" />
+  <project path="system/core" name="android_system_core" remote="sr" revision="or8.0" />
+  <project path="system/extras" name="android_system_extras" remote="sr" revision="or8.0" />
+  <project path="system/media" name="android_system_media" remote="sr" revision="or8.0" />
+  <project path="system/netd" name="android_system_netd" remote="sr" revision="or8.0" />
+  <project path="system/nfc" name="android_system_nfc" remote="sr" revision="or8.0" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="sr" revision="or8.0" />
+  <project path="system/vold" name="android_system_vold" remote="sr" revision="or8.0" />
+
+  <!-- Codeaurora Additions -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="sr" revision="or8.0" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="sr" revision="or8.0" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sr" revision="or8.0" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="sr" revision="or8.0" />
+  <project path="external/json-c" name="android_external_json-c" remote="sr" revision="or8.0" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="sr" revision="or8.0" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="sr" revision="or8.0" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="sr" revision="or8.0" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="sr" revision="or8.0"/>
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="sr" revision="or8.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="sr" revision="or8.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="sr" revision="or8.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="sr" revision="or8.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="sr" revision="or8.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="sr" revision="or8.0-caf-8998" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="sr" revision="or8.0-caf" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="sr" revision="or8.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="sr" revision="or8.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="sr" revision="or8.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="sr" revision="or8.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="sr" revision="or8.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" remote="sr" revision="or8.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="sr" revision="or8.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="sr" revision="or8.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="sr" revision="or8.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="sr" revision="or8.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="sr" revision="or8.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" remote="sr" revision="or8.0-caf-8998" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="sr" revision="or8.0-caf" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="sr" revision="or8.0-caf" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="sr" revision="or8.0" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="sr" revision="or8.0" />
+  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="sr" revision="or8.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="sr" revision="or8.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="sr" revision="or8.0" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="sr" revision="or8.0" />
+
+  <!-- Slim Additions -->
+  <project path="device/slim/sepolicy" name="device_slim_sepolicy" remote="sr" revision="or8.0" />
+  <project path="external/exfat" name="android_external_exfat" remote="sr" revision="or8.0" />
+  <project path="external/fuse" name="android_external_fuse" remote="sr" revision="or8.0" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="sr" revision="or8.0" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sr" revision="or8.0" />
+  <project path="frameworks/opt/color-picker" name="frameworks_opt_color-picker" remote="sr" revision="or8.0" />
+  <project path="hardware/slim/interfaces" name="hardware_slim_interfaces" remote="sr" revision="or8.0"  >
+    <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
+  </project>
+
+
+
+</manifest>
