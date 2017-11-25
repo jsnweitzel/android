@@ -8,7 +8,7 @@
 
   <project path="bionic" name="android_bionic" remote="jsn" revision="8.0" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="jsn" revision="8.0" />
-  <project path="frameworks/base" name="andoid_frameworks_base" remote="jsn" revision="8.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="jsn" revision="8.0" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="jsn" revision="8.0" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="ln" revision="lineage-15.0" />
   <project path="vendor/proprietary/huawei" name="proprietary_vendor_huawei" remote="tm" revision="lineage-15.0" />
